@@ -1,0 +1,70 @@
+body {
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+.table {
+    font-size: 14px;
+}
+
+.coin-name {
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.coin-symbol {
+    color: #6c757d;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+.price-change {
+    font-weight: 500;
+}
+
+.price-change.positive {
+    color: #28a745;
+}
+
+.price-change.negative {
+    color: #dc3545;
+}
+
+.coin-logo {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.sparkline-chart {
+    width: 100px;
+    height: 40px;
+}
+
+/* Loading spinner */
+.loading-spinner {
+    display: none;
+    width: 2rem;
+    height: 2rem;
+    border: 0.25em solid rgba(0, 0, 0, 0.1);
+    border-left-color: #0d6efd;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .table-responsive {
+        font-size: 12px;
+    }
+    
+    .coin-name {
+        display: block;
+        margin-left: 0;
+    }
+}
