@@ -2,7 +2,7 @@
 
 A FastAPI-powered cryptocurrency market dashboard that fetches real-time data from CoinGecko API with caching functionality.
 
-![Dashboard Screenshot](https://via.placeholder.com/800x400?text=Crypto+Dashboard+Screenshot)
+![Dashboard Screenshot]([https://via.placeholder.com/800x400?text=Crypto+Dashboard+Screenshot](https://imgur.com/a/IMxBBiN))
 
 ## Features ✨
 
