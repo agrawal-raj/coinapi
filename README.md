@@ -29,21 +29,27 @@ A FastAPI-powered cryptocurrency market dashboard that fetches real-time data fr
 ## 🚀 Project Setup
 Follow the steps below to set up and run this project locally.
 
-1. Clone the Repository
-##bash 
+### 1. Clone the Repository
+
+```
+bash
 git clone https://github.com/agrawal-raj/coinapi.git
 cd coinapi
+```
 
-2. Install Dependencies
+### 2. Install Dependencies
 Make sure you have Python 3.7+ installed, then install the required packages:
-##bash
+```
+bash:
 pip install fastapi uvicorn httpx python-dotenv cachetools
+```
 
-3. Run the Application
+### 3. Run the Application
 Use the following command to start the FastAPI server:
-
-##bash
+```
+bash:
 uvicorn app.main:app --reload
+```
 
 This will start the development server at:
 📍 http://127.0.0.1:8000
